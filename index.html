@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Clock</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>World Clock</h1>
+    <div class="clock-wrapper">
+      <select id="countrySelect">
+        <option value="UTC">Select a location...</option>
+        
+        <!-- Africa -->
+        <option value="Africa/Lagos">Lagos (Nigeria)</option>
+        <option value="Africa/Nairobi">Nairobi (Kenya)</option>
+        <option value="Africa/Accra">Accra (Ghana)</option>
+        <option value="Africa/Porto-Novo">Porto-Novo (Benin)</option>
+        <option value="Africa/Cairo">Cairo (Egypt)</option>
+        <option value="Africa/Casablanca">Casablanca (Morocco)</option>
+        <option value="Africa/Johannesburg">Johannesburg (South Africa)</option>
+        <option value="Africa/Addis_Ababa">Addis Ababa (Ethiopia)</option>
+        <option value="Africa/Dar_es_Salaam">Dar es Salaam (Tanzania)</option>
+        <option value="Africa/Kampala">Kampala (Uganda)</option>
+        
+        <!-- Asia -->
+        <option value="Asia/Shanghai">Shanghai (China)</option>
+        <option value="Asia/Kolkata">Mumbai (India)</option>
+        <option value="Asia/Tokyo">Tokyo (Japan)</option>
+        <option value="Asia/Seoul">Seoul (South Korea)</option>
+        <option value="Asia/Jakarta">Jakarta (Indonesia)</option>
+        <option value="Asia/Bangkok">Bangkok (Thailand)</option>
+        <option value="Asia/Manila">Manila (Philippines)</option>
+        <option value="Asia/Dhaka">Dhaka (Bangladesh)</option>
+        <option value="Asia/Karachi">Karachi (Pakistan)</option>
+        <option value="Asia/Hong_Kong">Hong Kong</option>
+        
+        <!-- Rest of World -->
+        <option value="America/New_York">New York (USA)</option>
+        <option value="Europe/London">London (UK)</option>
+        <option value="Australia/Sydney">Sydney (Australia)</option>
+        <option value="Europe/Paris">Paris (France)</option>
+        <option value="Asia/Dubai">Dubai (UAE)</option>
+        <option value="Asia/Singapore">Singapore</option>
+        <option value="Europe/Moscow">Moscow (Russia)</option>
+        <option value="Pacific/Auckland">Auckland (New Zealand)</option>
+      </select>
+      <div class="clock">
+        <div class="time">00:00:00</div>
+        <div class="date">Select a location</div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
